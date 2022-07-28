@@ -3555,7 +3555,7 @@ input[type="button"].btn-block {
   min-height: 1.5rem;
   padding-left: 1.5rem;
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 .custom-control-inline {
@@ -10134,6 +10134,7 @@ header.masthead {
   /* padding-bottom: 6rem; */
   text-align: center;
   color: #000;
+  background-color: #fff !important;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10160,6 +10161,9 @@ header.masthead .masthead-heading {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.header-align {
+  margin-left: 4.5rem !important;
+}
 .masthead-heading p {
   font-weight: 400;
   color: grey;
@@ -10702,9 +10706,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: left !important;
 }
 
-.pull-left {
+/* .pull-left {
   float: left !important;
-}
+} */
 
 .lower-footer .pull-right {
   display: block !important;
@@ -10722,7 +10726,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.lower-footer span, .lower-footer a {
+.lower-footer span,
+.lower-footer a {
   opacity: 1;
   margin-right: 25px;
   font-size: 13px;
@@ -10730,9 +10735,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   line-height: 25px;
 }
 
-.pull-right {
+/* .pull-right {
   float: right !important;
-}
+} */
 
 .menu-item a,
 .textwidget a {
@@ -10782,4 +10787,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footer-container::after {
   display: table;
   content: " ";
+}
+
+.text-end {
+  padding-left: 120px;
 }
