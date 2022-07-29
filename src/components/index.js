@@ -1,15 +1,28 @@
 import React from "react";
-import banner from "../static/images/banner-img.gif";
 import { ServicesArray } from "./ServicesArray";
 import CustomerSlider from "./CustomerSlider";
+import { useDispatch } from "react-redux";
+import { setService } from "../redux/actions/servicesActions";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Process from "./Process";
+import Header from "./Header";
 
-const LandingPage = () => {
+const Home = () => {
+  const dispatch = useDispatch();
   const ServiceCard = ({ title, description, href, children }) => {
+    let service = {
+      title: title,
+      desc: description,
+    };
     return (
-      <a href={href} className="service-card">
+      <a
+        href="/services"
+        className="service-card"
+        onClick={() => {
+          dispatch(setService(service));
+        }}
+      >
         {children}
         <h3>{title}</h3>
         <p>{description}</p>
@@ -21,23 +34,12 @@ const LandingPage = () => {
     <>
       <Navbar />
 
-      <header className="masthead">
-        <div className="container header-align">
-          <div className="row">
-            <div className="col-md-6 masthead-heading text-uppercase">
-              Quality over Quantity
-              <p>
-                Transforming your ideas into reality. Committed to meet
-                deadlines, our deep engineering and product expertise offer the
-                best solution to your business needs.
-              </p>
-            </div>
-            <div className="col-md-6" id="banner-gif">
-              <img src={banner} alt="banner" height={550} />
-            </div>
-          </div>
-        </div>
-      </header>
+      <Header
+        title=" Quality over Quantity"
+        desc=" Transforming your ideas into reality. Committed to meet deadlines,
+              our deep engineering and product expertise offer the best solution
+              to your business needs."
+      />
       <div className="wrapper">
         <section className="page-section" id="services">
           <h2 className="section-heading ">Services We Offer</h2>
@@ -76,4 +78,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default Home;

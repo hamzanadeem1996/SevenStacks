@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LandingPage from "./components";
+import Home from "./components";
+import Services from "./components/Services";
 import "./App.css";
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Routes>
-            <Route exact path="/" element={<LandingPage />} />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/services" element={<Services />} />
           </Routes>
         </div>
       </Router>

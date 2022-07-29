@@ -26,10 +26,11 @@ const Process = () => {
                     src={item.imageSrc}
                     width={70}
                     height={70}
+                    alt=""
                   />
                   {value !== Processes.length - 1 && (
                     <div className="arrow-icon">
-                      <img src={ArrowRight} width={25} height={25} />
+                      <img src={ArrowRight} width={25} height={25} alt="" />
                     </div>
                   )}
                 </div>
