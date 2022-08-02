@@ -1,11 +1,13 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import logo from "../static/images/logo.jpeg";
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div className="ml-0 container">
-        <a className="navbar-brand js-scroll-trigger" href="#page-top">
+        <NavLink className="navbar-brand js-scroll-trigger" to="/">
           <img
             src={logo}
             alt="logo"
@@ -13,7 +15,7 @@ const Navbar = () => {
             height={240}
             style={{ objectFit: "cover" }}
           />
-        </a>
+        </NavLink>
 
         <button
           className="navbar-toggler navbar-toggler-right"
@@ -33,25 +35,43 @@ const Navbar = () => {
         >
           <ul className="navbar-nav text-uppercase ml-auto">
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#services">
+              <Link
+                className="nav-link js-scroll-trigger"
+                activeClass="active"
+                smooth
+                spy
+                to="services"
+              >
                 Services
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#customers">
+              <Link
+                className="nav-link js-scroll-trigger"
+                activeClass="active"
+                smooth
+                spy
+                to="customers"
+              >
                 Customers
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#process">
+              <Link
+                className="nav-link js-scroll-trigger"
+                activeClass="active"
+                smooth
+                spy
+                to="process"
+              >
                 Process
-              </a>
+              </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link js-scroll-trigger" href="/contact">
                 Contact Us
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

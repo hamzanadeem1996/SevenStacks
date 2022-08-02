@@ -1,35 +1,14 @@
 import React from "react";
-import { ServicesArray } from "./ServicesArray";
+import { ServicesJSON } from "./Services/ServicesJSON";
 import CustomerSlider from "./CustomerSlider";
-import { useDispatch } from "react-redux";
-import { setService } from "../redux/actions/servicesActions";
+import ServiceCard from "./Services/ServiceCard";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Process from "./Process";
 import Header from "./Header";
 
 const Home = () => {
-  const dispatch = useDispatch();
-  const ServiceCard = ({ title, description, href, children }) => {
-    let service = {
-      title: title,
-      desc: description,
-    };
-    return (
-      <a
-        href="/services"
-        className="service-card"
-        onClick={() => {
-          dispatch(setService(service));
-        }}
-      >
-        {children}
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </a>
-    );
-  };
-
+  console.log(ServicesJSON, "ServicesJSON");
   return (
     <>
       <Navbar />
@@ -45,12 +24,10 @@ const Home = () => {
           <h2 className="section-heading ">Services We Offer</h2>
           <div className="container feature" data-aos="fade-up">
             <div className="row card-grid">
-              {ServicesArray.map((item, index) => (
+              {ServicesJSON.map((item, index) => (
                 <ServiceCard
                   key={index}
-                  href={item.link}
-                  title={item.title}
-                  description={item.desc}
+                  service={item}
                 >
                   {item.icon}
                 </ServiceCard>

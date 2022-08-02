@@ -296,8 +296,8 @@ export const ServiceUIIcon = () => {
           y2="37.8919"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#C7DAFD" />
-          <stop offset="1" stopColor="#E9F1FF" />
+          <stop stopColor="#40cf29" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint1_linear"
@@ -307,8 +307,8 @@ export const ServiceUIIcon = () => {
           y2="5.54804"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint2_linear"
@@ -318,8 +318,8 @@ export const ServiceUIIcon = () => {
           y2="5.54804"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint3_linear"
@@ -329,8 +329,8 @@ export const ServiceUIIcon = () => {
           y2="15.0363"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint4_linear"
@@ -340,8 +340,8 @@ export const ServiceUIIcon = () => {
           y2="15.0363"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint5_linear"
@@ -351,8 +351,8 @@ export const ServiceUIIcon = () => {
           y2="18.048"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint6_linear"
@@ -362,8 +362,8 @@ export const ServiceUIIcon = () => {
           y2="18.048"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint7_linear"
@@ -373,8 +373,8 @@ export const ServiceUIIcon = () => {
           y2="5.54804"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint8_linear"
@@ -384,8 +384,8 @@ export const ServiceUIIcon = () => {
           y2="3.8812"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint9_linear"
@@ -395,8 +395,8 @@ export const ServiceUIIcon = () => {
           y2="3.8812"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint10_linear"
@@ -406,8 +406,8 @@ export const ServiceUIIcon = () => {
           y2="6.15968"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint11_linear"
@@ -417,8 +417,8 @@ export const ServiceUIIcon = () => {
           y2="19.923"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint12_linear"
@@ -428,8 +428,8 @@ export const ServiceUIIcon = () => {
           y2="22.0527"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint13_linear"
@@ -439,8 +439,8 @@ export const ServiceUIIcon = () => {
           y2="32.1283"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
       </defs>
     </svg>
@@ -475,8 +475,8 @@ export const SalesForceIcon = () => {
           y2="40.0041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#C7DAFD" />
-          <stop offset="1" stopColor="#E9F1FF" />
+          <stop stopColor="#40cf29" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint1_linear"
@@ -486,8 +486,8 @@ export const SalesForceIcon = () => {
           y2="40.3544"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
       </defs>
     </svg>
@@ -516,8 +516,8 @@ export const DiscoveryWorkshopIcon = () => {
           y2="33.2882"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
       </defs>
     </svg>
@@ -552,8 +552,8 @@ export const DataScienceIcon = () => {
           y2="39.421"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#C7DAFD" />
-          <stop offset="1" stopColor="#E9F1FF" />
+          <stop stopColor="#40cf29" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
         <linearGradient
           id="paint1_linear"
@@ -563,8 +563,8 @@ export const DataScienceIcon = () => {
           y2="39.0525"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#2569E6" />
-          <stop offset="1" stopColor="#3649EF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#40cf29" />
         </linearGradient>
       </defs>
     </svg>
@@ -578,10 +578,70 @@ export const ArrowLeft = () => {
       height="24"
       xmlns="http://www.w3.org/2000/svg"
       fill="#8639ff"
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
     >
       <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+    </svg>
+  );
+};
+
+export const QATestingIcon = () => {
+  return (
+    <svg
+      width="35"
+      height="35"
+      viewBox="0 0 35 35"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M14.5832 24.7918C14.5832 19.4569 18.6992 15.0732 23.9186 14.6261C23.6298 13.6837 23.2991 12.7719 22.8834 11.9459C17.9156 15.4464 11.2507 15.4437 6.286 11.9429C5.84456 12.8262 5.49412 13.8031 5.19531 14.8142L1.1165 13.125L0 15.8196L4.57144 17.7104C4.45462 18.5907 4.37631 19.488 4.37631 20.4168H0.00131261V23.3332H4.5815C4.70269 24.1907 4.88469 25.0193 5.10694 25.8142L0.00131261 27.9304L1.1165 30.625L6.11275 28.5543C7.94675 32.4419 11.0561 35 14.5849 35C16.275 35 17.8644 34.4019 19.2688 33.3624C16.4544 31.5451 14.5832 28.3832 14.5832 24.7918Z"
+        fill="url(#paint0_linear)"
+      />
+      <path
+        d="M18.6755 7.07522L21.1452 1.11647L18.4511 -3.05176e-05L15.9731 5.98453C15.5172 5.8931 15.0557 5.83316 14.5845 5.83316C14.1115 5.83316 13.6487 5.8931 13.1928 5.98453L10.7148 -3.05176e-05L8.02023 1.11647L10.4899 7.07828C9.52436 7.68772 8.63317 8.49097 7.84961 9.47622C11.8571 12.3698 17.3105 12.3698 21.3194 9.47622C20.5358 8.49053 19.6429 7.68466 18.6755 7.07522Z"
+        fill="url(#paint1_linear)"
+      />
+      <path
+        d="M30.8713 28.8081C31.633 27.6544 32.0832 26.2758 32.0832 24.7918C32.0832 20.7642 28.819 17.5 24.7918 17.5C20.7642 17.5 17.5 20.7642 17.5 24.7918C17.5 28.819 20.7642 32.0832 24.7918 32.0832C26.2771 32.0832 27.6557 31.6334 28.8094 30.87L32.9376 35L35 32.9376L30.8713 28.8081ZM24.7918 29.1668C22.3751 29.1668 20.4168 27.2072 20.4168 24.7918C20.4168 22.3737 22.3751 20.4168 24.7918 20.4168C27.2081 20.4168 29.1668 22.3737 29.1668 24.7918C29.1668 27.2072 27.2081 29.1668 24.7918 29.1668Z"
+        fill="url(#paint2_linear)"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear"
+          x1="5.1254"
+          y1="11.9429"
+          x2="12.7322"
+          y2="33.1239"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#F48461" />
+          <stop offset="1" stop-color="#DC5116" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear"
+          x1="10.736"
+          y1="-3.0383e-05"
+          x2="14.261"
+          y2="10.9432"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#F48461" />
+          <stop offset="1" stop-color="#DC5116" />
+        </linearGradient>
+        <linearGradient
+          id="paint2_linear"
+          x1="21.25"
+          y1="17.5"
+          x2="27.1875"
+          y2="33.4375"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#F48461" />
+          <stop offset="1" stop-color="#DC5116" />
+        </linearGradient>
+      </defs>
     </svg>
   );
 };
